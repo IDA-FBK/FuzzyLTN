@@ -1,0 +1,9 @@
+,Seed,NeuronType,MFs,Accuracy,Fscore,Recall,Precision
+0,0,andneuron,2,0.956,0.967,1.0,0.935
+1,0,andneuron,3,0.733,0.769,0.69,0.87
+2,0,orneuron,2,1.0,1.0,1.0,1.0
+3,0,orneuron,3,1.0,1.0,1.0,1.0
+4,1,andneuron,2,0.956,0.967,1.0,0.935
+5,1,andneuron,3,0.733,0.769,0.69,0.87
+6,1,orneuron,2,1.0,1.0,1.0,1.0
+7,1,orneuron,3,1.0,1.0,1.0,1.0

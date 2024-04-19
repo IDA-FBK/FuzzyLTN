@@ -1,0 +1,5 @@
+NeuronType,MFs,Accuracy Mean,Accuracy Std,Fscore Mean,Fscore Std,Recall Mean,Recall Std,Precision Mean,Precision Std
+andneuron,2,0.656,0.016,0.468,0.031,0.486,0.040,0.451,0.024
+andneuron,3,0.580,0.031,0.456,0.013,0.562,0.009,0.383,0.024
+orneuron,2,0.792,0.000,0.607,0.000,0.514,0.000,0.740,0.000
+orneuron,3,0.775,0.000,0.587,0.000,0.514,0.000,0.685,0.000

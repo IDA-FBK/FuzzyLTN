@@ -1,0 +1,14 @@
+{
+  "num_seeds": 5,
+  "neuron_types": [
+    "andneuron",
+    "orneuron"
+  ],
+  "num_mfs_options": [
+    2,
+    3,
+    4
+  ],
+  "activation": "sigmoid",
+  "optimizer": "moore-penrose"
+}
