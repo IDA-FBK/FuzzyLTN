@@ -24,26 +24,27 @@ def evaluate_interpretability(fnn_model, x_test, path_to_results, epsilon=0.136)
     Returns:
     None
     """
+    # if too slow comment this part
 
     # Similarity
-    # similarity_matrix = calculate_similarity_matrix(fnn_model.rules_dictionary)
-    # print("Similarity Matrix:\n", similarity_matrix)
-    # plot_similarity_matrix(similarity_matrix, path_to_results)
+    similarity_matrix = calculate_similarity_matrix(fnn_model.rules_dictionary)
+    print("Similarity Matrix:\n", similarity_matrix)
+    plot_similarity_matrix(similarity_matrix, path_to_results)
 
     # e-completeness
-    # fuzzy_outputs = fnn_model.fuzzification_layer(x_test)
-    # logic_outputs = fnn_model.logic_neurons_layer(fuzzy_outputs)
-    # completeness_score, uncovered_samples_indices = ( calculate_ecompleteness_and_get_uncovered_samples(logic_outputs, epsilon))
+    fuzzy_outputs = fnn_model.fuzzification_layer(x_test)
+    logic_outputs = fnn_model.logic_neurons_layer(fuzzy_outputs)
+    completeness_score, uncovered_samples_indices = ( calculate_ecompleteness_and_get_uncovered_samples(logic_outputs, epsilon))
 
-    # print(f"e-Completeness Score: {completeness_score}%")
+    print(f"e-Completeness Score: {completeness_score}%")
 
-    # plots_uncovered_samples(x_test, uncovered_samples_indices, path_to_results)
+    plots_uncovered_samples(x_test, uncovered_samples_indices, path_to_results)
 
     # Distinguishability
-    # plot_distinguishability_heatmap(fnn_model.rules_dictionary, path_to_results)
+    plot_distinguishability_heatmap(fnn_model.rules_dictionary, path_to_results)
 
     # Consistency
-    # plot_consistency_matrix(fnn_model.V, path_to_results)
+    plot_consistency_matrix(fnn_model.V, path_to_results)
 
 
 ### THE FOLLOWING FUNCTION HAS BEEN NOT USED YET, IF YOU WANT TO USE IT DECOMMENT IT AND ADD THE DOCUMENTATION
