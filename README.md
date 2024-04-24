@@ -48,7 +48,7 @@
 
 - Run the main script using Python:
   ```bash
-  python main.py -dataset <name_of_dataset> -path_to_conf ./experiments/configurations/<name_of_dataset>/<name_of_conf>.json -path_to_results ./experiments/results/<name_of_dataset>/
+  python main.py -dataset <dataset> -path_to_conf ./experiments/configurations/<dataset>/<name_of_conf>.json -path_to_results ./experiments/results/<dataset>/
   ```
 
 ### 5. Results 
