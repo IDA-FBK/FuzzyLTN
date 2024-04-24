@@ -1,6 +1,6 @@
 # FuzzyLTN
 
-**FuzzyLTN**: Bridging Fuzzy Systems and Logic Tensor Networks for Unified Uncertainty Handling
+A novel interpretable and adaptable neuro-symbolic framework that integrates Fuzzy Systems with Logical Tensor Networks
 
 ## Directories
 
